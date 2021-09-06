@@ -148,7 +148,7 @@ body {
   position: relative;
   background: #0c122c;
   border-radius: 25px;
-  padding: 3px 2px;
+  padding: 3px;
   margin-bottom: 0.75rem;
 }
 .progress__bar > span {
