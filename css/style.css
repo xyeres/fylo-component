@@ -118,8 +118,8 @@ body {
   border-radius: 8px;
   flex-shrink: 0;
 }
-.nav__item:focus {
-  outline: dashed 3px #0c122c;
+.nav__item a:focus {
+  outline: dashed 3px #848794;
   outline-offset: 5px;
 }
 .nav__item + .nav__item {

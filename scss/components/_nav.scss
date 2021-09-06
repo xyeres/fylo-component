@@ -19,8 +19,8 @@
     flex-shrink: 0;
   }
 
-  &__item:focus {
-    outline: dashed 3px colors.$VeryDarkBlue;
+  &__item a:focus {
+    outline: dashed 3px colors.$GrayishBlue;
     outline-offset: 5px;
   }
 
