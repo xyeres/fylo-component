@@ -5,6 +5,7 @@ body {
   color: colors.$BodyFontColor;
   font-size: typography.$BodyCopyFontSize;
   font-family: typography.$BodyCopyFontFam, sans-serif;
-  background-image: url(../../img/bg-mobile.png);
+  background-image: url(../img/bg-mobile.png);
   background-size: cover;
+  background-color: colors.$VeryDarkBlue;
 }
