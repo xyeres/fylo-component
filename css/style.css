@@ -87,7 +87,8 @@ body {
   flex-direction: column;
   width: 100%;
   padding: 1.785rem;
-  padding-top: 9rem;
+  padding-bottom: 4rem;
+  padding-top: 5rem;
   max-width: 375px;
 }
 
