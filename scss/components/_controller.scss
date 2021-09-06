@@ -1,0 +1,9 @@
+@use '../abstracts/colors';
+@use '../abstracts/vars';
+
+.controller {
+  padding: 2.587rem;
+  background-color: colors.$DarkBlue;
+  border-radius: vars.$BorderRadiusGlobal;
+  border-top-right-radius: 90px;
+}

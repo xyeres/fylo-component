@@ -5,18 +5,48 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <title>Fylo data storage component</title>
 </head>
 
 <body>
-
-  You’ve used 815 GB of your storage
-
-  185 GB Left
-
-  0 GB
-  1000 GB
+  <div class="container">
+    <section class="controller">
+      <div class="logo">
+        <img src="img/logo.svg" />
+      </div>
+      <nav class="nav">
+        <ul class="nav__items">
+          <li href="#" tabindex="0" aria-expanded="false" aria-haspopup="false" aria-disabled="false"
+            aria-label="Create new document" class="nav__item nav__newDocument">
+            <img src="img/icon-document.svg" alt="logo">
+          </li>
+          <li href="#" aria-expanded="false" aria-haspopup="false" aria-disabled="false" aria-label="Create new folder"
+            class="nav__item nav__newFolder">
+            <img src="img/icon-folder.svg" alt="logo">
+          </li>
+          <li href="#" aria-expanded="false" aria-haspopup="false" aria-disabled="false" aria-label="Create new upload"
+            class="nav__item nav__newUpload">
+            <img src="img/icon-upload.svg" alt="logo">
+          </li>
+        </ul>
+      </nav>
+    </section>
+    <section class="progress">
+      <p class="progress__msg">You’ve used <b>815 GB</b> of your storage</p>
+      <div class="progress__bar orange nostripes">
+        <span style="width: 76.77%;"></span>
+      </div>
+      <div class="progress__minMax">
+        <div class="progress__bar--min">0 GB</div>
+        <div class="progress__bar--max">1000 GB</div>
+      </div>
+      <div class="progress__storageLeft">185 <span class="progress__storageLeft--title">GB Left</span></div>
+    </section>
+  </div>
 </body>
 
 </html>

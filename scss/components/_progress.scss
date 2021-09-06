@@ -1,0 +1,82 @@
+@use '../abstracts/colors';
+@use '../abstracts/vars';
+
+.progress {
+  min-height: 158px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.143rem;
+  padding: 2.35rem;
+  background-color: colors.$DarkBlue;
+  border-radius: vars.$BorderRadiusGlobal;
+  position: relative;
+
+  &__bar {
+    align-self: stretch;
+    height: 20px;
+    position: relative;
+    background: colors.$VeryDarkBlue;
+    border-radius: 25px;
+    padding: 3px 2px;
+    margin-bottom: .75rem;
+  }
+
+  &__bar>span {
+    display: block;
+    height: 100%;
+    border-radius: 25px;
+    background-color: hsl(6, 100%, 80%);
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%),
+        hsl(335, 100%, 65%));
+    box-shadow: none;
+    position: relative;
+    overflow: hidden;
+  }
+
+  &__bar>span::before {
+    content: '';
+    position: absolute;
+    right: 1.33px;
+    top: 1.92px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    opacity: 0.85;
+  }
+
+  &__minMax {
+    display: flex;
+    align-self: stretch;
+    justify-content: space-between;
+    font-size: 0.78rem;
+    font-weight: 700;
+  }
+
+  &__msg {
+    padding-bottom: 1rem;
+  }
+
+  &__storageLeft {
+    max-height: 72px;
+    position: absolute;
+    bottom: -45px;
+    font-weight: 700;
+    color: colors.$VeryDarkBlue;
+    padding: 1.5rem 1.857rem;
+    background-color: colors.$white;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    border-radius: vars.$BorderRadiusGlobal;
+  }
+
+  &__storageLeft--title {
+    color: colors.$GrayishBlue;
+    font-weight: 700;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    padding-left: 9px;
+  }
+}
