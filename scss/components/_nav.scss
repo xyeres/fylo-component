@@ -30,6 +30,8 @@
 
   &__item:hover {
     background-color: colors.$BodyFontColor;
+    transition: 120ms all ease-in;
+
   }
 
 

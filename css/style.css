@@ -72,10 +72,13 @@ select {
     scroll-behavior: auto !important;
   }
 }
-body {
-  color: #dddbff;
+html {
   font-size: 14px;
   font-family: "Raleway", sans-serif;
+}
+
+body {
+  color: #dddbff;
   background-image: url(../img/bg-mobile.png);
   background-size: cover;
   background-color: #0c122c;
@@ -128,6 +131,7 @@ body {
 }
 .nav__item:hover {
   background-color: #dddbff;
+  transition: 120ms all ease-in;
 }
 
 .progress {
