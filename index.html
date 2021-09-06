@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <script defer src="main.js"></script>
   <title>Fylo data storage component</title>
 </head>
 
@@ -37,8 +38,8 @@
     </section>
     <section class="progress">
       <p class="progress__msg">You’ve used <b>815 GB</b> of your storage</p>
-      <div class="progress__bar orange nostripes">
-        <span style="width: 76.77%;"></span>
+      <div class="progress__bar">
+        <span id="progressBar" style="width:1%;"></span>
       </div>
       <div class="progress__minMax">
         <div class="progress__bar--min">0 GB</div>

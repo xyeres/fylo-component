@@ -159,6 +159,7 @@ body {
   box-shadow: none;
   position: relative;
   overflow: hidden;
+  transition: 750ms width ease-in;
 }
 .progress__bar > span::before {
   content: "";
