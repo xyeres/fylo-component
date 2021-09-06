@@ -4,5 +4,6 @@ const updateWidth = (element, width) => {
   element.style.width = width
 };
 
-setTimeout(updateWidth(progressBar, '77.77%'), 2000);
+setTimeout(updateWidth, 200, progressBar, '77.77%');
 
+clearTimeout();
