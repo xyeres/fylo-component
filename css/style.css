@@ -141,6 +141,14 @@ body {
   transition: 120ms all ease-in;
 }
 
+@keyframes floatingBox {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-4px);
+  }
+}
 .progress {
   position: relative;
   display: flex;
@@ -206,6 +214,8 @@ body {
   align-items: center;
   font-size: 2rem;
   border-radius: 10px;
+  animation: 1s infinite alternate floatingBox;
+  animation-timing-function: ease-in-out;
 }
 .progress__storageLeft--title {
   color: #848794;
