@@ -1,6 +1,6 @@
 # Accessible data storage component built with HTML & SCSS partials
 
-This is a solution to the [Fylo data storage component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n).
+This is a solution to the [Fylo data storage component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n). I did not design this one (sometimes I do) I was given a JPG and a style guide with some color values.
 
 
 ## Table of contents
