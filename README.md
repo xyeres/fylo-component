@@ -150,7 +150,7 @@ Using a mobile-first approach allowed me to adapt the entire design to desktop w
 }
 ```
 
-That is the entirity of my desktop styles. No confusing mobile media queries overwrite all the desktops.
+That is the entirity of my desktop styles. No confusing desktop to mobile and back coercion. 
 
 ### Continued development
 
