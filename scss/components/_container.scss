@@ -1,10 +1,18 @@
-.container {
-  display: flex;
-  margin: 0 auto;
-  flex-direction: column;
-  width: 100%;
-  padding: 1.785rem;
-  margin-bottom: 4rem;
-  padding-top: 4rem;
-  max-width: 375px;
-}
+  .outerContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .container {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    width: 100%;
+    padding: 1.785rem;
+    margin-bottom: 3rem;
+    max-width: 375px;
+  }
