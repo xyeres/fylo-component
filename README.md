@@ -1,8 +1,6 @@
-# Fylo data storage component solution
+# Accessible data storage component built with HTML & SCSS partials
 
-A simple responsive component built with HTML and SCSS.
-
-This is a solution to the [Fylo data storage component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n).
+This is a solution to the [Fylo data storage component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n). I did not design this one (sometimes I do) I was given a JPG and a style guide with some color values.
 
 
 ## Table of contents
@@ -53,7 +51,7 @@ This simple component is all about the feels. Following the style guide and mock
 
 SCSS Partials have continued to speed up my workflow and provide a more clean end-result: deployable code that is neither bloated nor convoluted.
 
-One thing I'm proud of is the progress bar, a nice reusable component that is styled with the simplicity of (thanks to CSS tricks for the base idea): 
+One thing I'm proud of is the progress bar (thanks to CSS tricks for the base idea), a nice reusable component that is styled with the simplicity of: 
 
 ```scss
 &__bar {
@@ -152,7 +150,7 @@ Using a mobile-first approach allowed me to adapt the entire design to desktop w
 }
 ```
 
-That is the entirity of my desktop styles. No confusing mobile media queries overwrite all the desktops.
+That is the entirity of my desktop styles. No confusing desktop to mobile and back coercion. 
 
 ### Continued development
 
