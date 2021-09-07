@@ -14,32 +14,32 @@
 
 <body>
   <div class="outerContainer">
-    <div class="container">
-      <section class="controller">
-        <div aria-label="Fylo company logo" class="logo">
-          <img src="img/logo.svg" />
-        </div>
+    <main class="container">
+      <aside class="controller">
+        <header class="logo">
+          <img alt="Fylo company logo" src="img/logo.svg" />
+        </header>
         <nav class="nav">
           <ul class="nav__items">
             <li aria-expanded="false" aria-haspopup="false" aria-disabled="false" aria-label="Create new document"
               class="nav__item nav__newDocument">
-              <a tabindex="1" href="#"><img src="img/icon-document.svg" alt="logo"></a>
+              <a tabindex="0" href="#"><img src="img/icon-document.svg" alt="logo"></a>
             </li>
             <li aria-expanded="false" aria-haspopup="false" aria-disabled="false" aria-label="Create new folder"
               class="nav__item nav__newFolder">
-              <a tabindex="2" href="#"><img src="img/icon-folder.svg" alt="logo"></a>
+              <a tabindex="0" href="#"><img src="img/icon-folder.svg" alt="logo"></a>
             </li>
             <li aria-expanded="false" aria-haspopup="false" aria-disabled="false" aria-label="Create new upload"
               class="nav__item nav__newUpload">
-              <a tabindex="3" href="#"><img src="img/icon-upload.svg" alt="logo"></a>
+              <a tabindex="0" href="#"><img src="img/icon-upload.svg" alt="logo"></a>
             </li>
           </ul>
         </nav>
-      </section>
-      <section class="progress">
+      </aside>
+      <aside class="progress">
         <p class="progress__msg">You’ve used <b>815 GB</b> of your storage</p>
-        <div class="progress__bar" aria-label="Storage used progress bar">
-          <span id="progressBar" aria-label="77% of total storage used" style="width:0%;"></span>
+        <div class="progress__bar">
+          <span id="progressBar" style="width:0%;"></span>
         </div>
         <div class="progress__minMax">
           <div class="progress__bar--min">0 GB</div>
@@ -47,8 +47,8 @@
         </div>
         <div class="progress__storageLeft" aria-label="185GB of storage left">185 <span
             class="progress__storageLeft--title">GB Left</span></div>
-      </section>
-    </div>
+      </aside>
+    </main>
   </div>
   <script defer src="main.js"></script>
 
