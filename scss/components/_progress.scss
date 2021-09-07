@@ -2,16 +2,16 @@
 @use '../abstracts/vars';
 
 .progress {
-  min-height: 158px;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
+  min-height: 158px;
   margin-top: 1.143rem;
-  padding: 2.35rem;
-  padding-bottom: 3.35rem;
+  padding: 2.857rem;
+  padding-bottom: 3.857rem;
   background-color: colors.$DarkBlue;
   border-radius: vars.$BorderRadiusGlobal;
-  position: relative;
 
   &__bar {
     align-self: stretch;
