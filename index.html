@@ -16,7 +16,7 @@
   <div class="outerContainer">
     <div class="container">
       <section class="controller">
-        <div class="logo">
+        <div aria-label="Fylo company logo" class="logo">
           <img src="img/logo.svg" />
         </div>
         <nav class="nav">
@@ -38,14 +38,15 @@
       </section>
       <section class="progress">
         <p class="progress__msg">You’ve used <b>815 GB</b> of your storage</p>
-        <div class="progress__bar">
-          <span id="progressBar" style="width:0%;"></span>
+        <div class="progress__bar" aria-label="Storage used progress bar">
+          <span id="progressBar" aria-label="77% of total storage used" style="width:0%;"></span>
         </div>
         <div class="progress__minMax">
           <div class="progress__bar--min">0 GB</div>
           <div class="progress__bar--max">1000 GB</div>
         </div>
-        <div class="progress__storageLeft">185 <span class="progress__storageLeft--title">GB Left</span></div>
+        <div class="progress__storageLeft" aria-label="185GB of storage left">185 <span
+            class="progress__storageLeft--title">GB Left</span></div>
       </section>
     </div>
   </div>
