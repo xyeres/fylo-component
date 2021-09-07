@@ -51,7 +51,7 @@ This simple component is all about the feels. Following the style guide and mock
 
 SCSS Partials have continued to speed up my workflow and provide a more clean end-result: deployable code that is neither bloated nor convoluted.
 
-One thing I'm proud of is the progress bar, a nice reusable component that is styled with the simplicity of (thanks to CSS tricks for the base idea): 
+One thing I'm proud of is the progress bar (thanks to CSS tricks for the base idea), a nice reusable component that is styled with the simplicity of: 
 
 ```scss
 &__bar {
