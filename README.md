@@ -1,6 +1,4 @@
-# Fylo data storage component solution
-
-A simple responsive component built with HTML and SCSS.
+# Accessible data storage component built with HTML & SCSS partials
 
 This is a solution to the [Fylo data storage component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n).
 
